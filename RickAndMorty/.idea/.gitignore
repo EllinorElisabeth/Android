@@ -1,0 +1,28 @@
+# Android Studio
+.idea/
+*.iml
+
+# Build output
+/build/
+**/build/
+
+# Gradle
+.gradle/
+**/.gradle/
+gradle-app.setting
+gradle-wrapper.jar
+
+# Local configuration
+local.properties
+
+# Misc
+*.log
+*.keystore
+*.jks
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Kotlin/Jetpack Compose compiler caches
+.kotlinc/
