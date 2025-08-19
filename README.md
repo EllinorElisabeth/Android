@@ -35,8 +35,7 @@ If a user deletes a character here, it will automatically disappear from the fav
 
 
 ### ✍️ Create
-<img src="./docs/screenshots/RM_create.jpg" alt="Create" width="200" style="margin-right:24px;" />
-<img src="./docs/screenshots/RM_create-2.jpg" alt="Create 2" width="200" />
+<img src="./docs/screenshots/RM_create.jpg" alt="Create" width="200" style="margin-right:24px;" /> <img src="./docs/screenshots/RM_create-2.jpg" alt="Create 2" width="200" />
 Users can create their own characters by filling out the form with information.  
 An example is shown, and if a required field is left empty, the app will notify the user.
 
