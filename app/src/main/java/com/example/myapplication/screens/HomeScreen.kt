@@ -14,7 +14,6 @@ import com.example.myapplication.ui.RMTheme.allroundPadding_24
 import com.example.myapplication.ui.RMTheme.BackgroundWallColor
 import com.example.myapplication.ui.RMTheme.TitleBackgroundModifier
 import com.example.myapplication.ui.RMTheme.titleStyle
-
 import com.example.myapplication.viewmodel.RMCharacterViewModel
 
 

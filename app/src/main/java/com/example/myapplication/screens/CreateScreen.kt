@@ -36,7 +36,6 @@ import com.example.myapplication.ui.RMTheme.HotPinkHex
 import com.example.myapplication.ui.RMTheme.NeonGreenHex
 import com.example.myapplication.ui.RMTheme.startAndTopPadding_8
 import com.example.myapplication.ui.RMTheme.TitleBackgroundModifier
-import com.example.myapplication.ui.RMTheme.bodyTextStyleSmall
 import com.example.myapplication.ui.RMTheme.titleStyle
 import com.example.myapplication.ui.RMTheme.topAndBottomPadding_16
 import com.example.myapplication.ui.RMTheme.horizontalGradientButton

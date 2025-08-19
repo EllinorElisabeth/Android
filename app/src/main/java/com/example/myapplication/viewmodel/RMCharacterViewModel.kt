@@ -197,5 +197,3 @@ class RMCharacterViewModel(private val repository: AppDbRepository) : ViewModel(
 
 
 }
-
-

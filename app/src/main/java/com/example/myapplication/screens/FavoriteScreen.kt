@@ -17,12 +17,9 @@ import com.example.myapplication.ui.RMTheme.allroundPadding_24
 import com.example.myapplication.ui.RMTheme.BackgroundWallColor
 import com.example.myapplication.ui.RMTheme.bodyTextStyleLarge
 import com.example.myapplication.ui.RMTheme.TitleBackgroundModifier
-import com.example.myapplication.ui.RMTheme.allroundPadding_16
 import com.example.myapplication.ui.RMTheme.bodyTextStyleMedium
-import com.example.myapplication.ui.RMTheme.bodyTextStyleSmall
 import com.example.myapplication.ui.RMTheme.bottomPadding_8
 import com.example.myapplication.ui.RMTheme.titleStyle
-import com.example.myapplication.ui.RMTheme.topAndBottomPadding_16
 import com.example.myapplication.viewmodel.RMCharacterViewModel
 
 

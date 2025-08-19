@@ -13,8 +13,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-
-// Paddings
 val topAndBottomPadding_16 = Modifier.padding(0.dp, 16.dp, 0.dp, 16.dp)
 val topAndBottomPadding_4 = Modifier.padding(0.dp, 4.dp, 0.dp, 4.dp)
 
@@ -25,8 +23,6 @@ val startAndTopPadding_8 = Modifier.padding(8.dp, 8.dp ,0.dp, 0.dp)
 val allroundPadding_24 = Modifier.padding(24.dp)
 val allroundPadding_16 = Modifier.padding(16.dp)
 
-
-// Typography
 val titleStyle = TextStyle (
     fontSize = 24.sp,
     fontWeight = FontWeight.Bold,
@@ -69,7 +65,6 @@ val bodyTextStyleSmall = TextStyle (
 )
 
 
-// Farge
 val NeonBlueHex = Color(0xFF0BBFF5)
 val NeonGreenHex = Color(0xFF47DA12)
 val GreenGlassHex = Color(0x268EDA73)
@@ -101,7 +96,6 @@ val horizontalGradientButton = Brush.horizontalGradient(
     colors = listOf(NeonGreenHex.copy(alpha = 0.3f), NeonGreenHex.copy(alpha = 0.6f))
 )
 
-// Bakgrunn
 val TitleBackgroundModifier = Modifier
     .fillMaxWidth()
     .background(brush = verticalGradientTitleBackground)
