@@ -33,8 +33,6 @@ Users can add them to the favorites list by clicking the heart icon.
 They can also remove them from favorites by unmarking the heart icon.  
 If a user deletes a character here, it will automatically disappear from the favorites list.
 
-
-### ✍️ Create
 ### ✍️ Create
 <div>
     <img src="./docs/screenshots/RM_create.jpg" alt="Create" width="200" /> 
@@ -43,7 +41,6 @@ If a user deletes a character here, it will automatically disappear from the fav
 
 Users can create their own characters by filling out the form with information.  
 An example is shown, and if a required field is left empty, the app will notify the user.
-
 
 ### ⭐ Favorites
 <img src="./docs/screenshots/RM_fav.jpg" alt="Create 2" width="200" />
