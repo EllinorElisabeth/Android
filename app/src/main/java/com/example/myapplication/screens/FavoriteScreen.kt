@@ -18,6 +18,8 @@ import com.example.myapplication.ui.RMTheme.BackgroundWallColor
 import com.example.myapplication.ui.RMTheme.bodyTextStyleLarge
 import com.example.myapplication.ui.RMTheme.TitleBackgroundModifier
 import com.example.myapplication.ui.RMTheme.allroundPadding_16
+import com.example.myapplication.ui.RMTheme.bodyTextStyleMedium
+import com.example.myapplication.ui.RMTheme.bodyTextStyleSmall
 import com.example.myapplication.ui.RMTheme.bottomPadding_8
 import com.example.myapplication.ui.RMTheme.titleStyle
 import com.example.myapplication.ui.RMTheme.topAndBottomPadding_16
@@ -55,10 +57,11 @@ fun FavoriteScreen(rmCharacterViewModel: RMCharacterViewModel) {
             item {
                 if (apiCharacterFavorite.isEmpty()) {
                     Text("Your favorite Rick and Morty characters:\n" +
-                            "None... But you can add them from Home!")
+                            "None... But you can add them from Home!",
+                        style = bodyTextStyleMedium)
                 } else {
                     Text(
-                        "Favorites: Rick & Morty characters",
+                        "Rick & Morty characters",
                         style = bodyTextStyleLarge,
                         modifier = bottomPadding_8
                     )
@@ -82,10 +85,11 @@ fun FavoriteScreen(rmCharacterViewModel: RMCharacterViewModel) {
             item {
                 if (createdCharacterFavorite.isEmpty()) {
                     Text("Your favorite created characters:\n" +
-                            "None... But you can create and add them!")
+                            "None... But you can create and add them!",
+                        style = bodyTextStyleMedium)
                 } else {
                     Text(
-                        "Favorites: your created characters",
+                        "Your created characters",
                         style = bodyTextStyleLarge,
                         modifier = bottomPadding_8
                     )

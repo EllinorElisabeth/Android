@@ -13,6 +13,7 @@ import com.example.myapplication.ui.RMTheme.BackgroundWallColor
 import com.example.myapplication.ui.RMTheme.TitleBackgroundModifier
 import com.example.myapplication.ui.RMTheme.allroundPadding_16
 import com.example.myapplication.ui.RMTheme.bodyTextStyleLarge
+import com.example.myapplication.ui.RMTheme.bodyTextStyleMedium
 import com.example.myapplication.ui.RMTheme.titleStyle
 import com.example.myapplication.ui.RMTheme.topAndBottomPadding_16
 import com.example.myapplication.viewmodel.RMCharacterViewModel
@@ -36,7 +37,8 @@ fun MyCharacterScreen(rmCharacterViewModel: RMCharacterViewModel) {
                 )
             )
             Text("Create your own characters in Create!",
-                modifier = allroundPadding_24
+                modifier = allroundPadding_24,
+                style = bodyTextStyleMedium
             )
         } else {
             Text(

@@ -31,7 +31,6 @@ import androidx.compose.ui.zIndex
 import coil.compose.rememberAsyncImagePainter
 import com.example.myapplication.R
 import com.example.myapplication.data.model.RMCharacter
-import com.example.myapplication.ui.RMTheme.allroundPadding_16
 import com.example.myapplication.ui.RMTheme.bodyTextStyleMedium
 import com.example.myapplication.ui.RMTheme.bodyTextStyleSmall
 import com.example.myapplication.ui.RMTheme.HotPinkHex
@@ -42,6 +41,7 @@ import com.example.myapplication.ui.RMTheme.horizontalGradientButton
 import com.example.myapplication.ui.RMTheme.horizontalGradientWarm
 import com.example.myapplication.ui.RMTheme.horizontalGradientNeon
 import com.example.myapplication.ui.RMTheme.horizontalGradientInfomation
+import com.example.myapplication.ui.RMTheme.topAndBottomPadding_4
 import com.example.myapplication.ui.shapes.BorderShapeOne
 import com.example.myapplication.ui.shapes.BorderShapeTwo
 import com.example.myapplication.ui.shapes.ButtonShape
@@ -154,7 +154,7 @@ fun CharacterItem(
                 Button(
                     onClick = { showInfo.value = !showInfo.value },
                     colors = ButtonDefaults.buttonColors(Color.Transparent),
-                    modifier = Modifier
+                    modifier = topAndBottomPadding_4
                         .background(horizontalGradientButton, ButtonShape())
                         .border(1.dp, NeonGreenHex, ButtonShape())
                 ) {
@@ -165,7 +165,9 @@ fun CharacterItem(
                 }
                 if (showInfo.value) {
                     Column(
-                        modifier = allroundPadding_16
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(0.dp, 8.dp, 0.dp, 0.dp)
                             .background(horizontalGradientInfomation)
                             .border(1.dp, HotPinkHex)
                             .padding(16.dp)
