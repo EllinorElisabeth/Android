@@ -23,13 +23,15 @@ The app lets you browse characters from the Rick & Morty series, create your own
 ## 📸 Screenshots
 
 ### 🏠 Home
-![Home](./docs/screenshots/RM_home.jpg)
+<img src="./docs/screenshots/RM_home.jpg" alt="Home" width="400" />
 
 ### 👤 Character
-![Character](./docs/screenshots/RM_createdCharacters.jpg)
+<img src="./docs/screenshots/RM_home.jpg" alt="Character" width="400" />
 
 ### ✍️ Create
-![Create](./docs/screenshots/RM_create.jpg) ![Create](./docs/screenshots/RM_create-2.jpg)
+<img src="./docs/screenshots/RM_create.jpg" alt="Create" width="400" style="margin-right:24px;" /> 
+
+<img src="./docs/screenshots/RM_create-2.jpg" alt="Create 2" width="400" />
 
 ### ⭐ Favorites
-![Favorite](./docs/screenshots/RM_fav.jpg)
+<img src="./docs/screenshots/RM_fav.jpg" alt="Create 2" width="400" />
