@@ -26,6 +26,8 @@ The app lets you browse characters from the Rick and Morty series, create your o
 <img src="./docs/screenshots/RM_home.jpg" alt="Home" width="200" />
 A simple home page with sci-fi-inspired styling that displays Rick and Morty characters.
 
+---
+
 ### 👤 Character
 <img src="./docs/screenshots/RM_createdCharacters.jpg" alt="Character" width="200" />
 This page shows a collection of the user's created characters.  
@@ -33,14 +35,18 @@ Users can add them to the favorites list by clicking the heart icon.
 They can also remove them from favorites by unmarking the heart icon.  
 If a user deletes a character here, it will automatically disappear from the favorites list.
 
+---
+
 ### ✍️ Create
 <div>
     <img src="./docs/screenshots/RM_create.jpg" alt="Create" width="200" /> 
-    <img src="./docs/screenshots/RM_create-2.jpg" alt="Create" width="200" />  
+    <img src="./docs/screenshots/RM_create-2.jpg" alt="Create" width="200" />
 </div>
 
 Users can create their own characters by filling out the form with information.  
 An example is shown, and if a required field is left empty, the app will notify the user.
+
+---
 
 ### ⭐ Favorites
 <img src="./docs/screenshots/RM_fav.jpg" alt="Create 2" width="200" />
